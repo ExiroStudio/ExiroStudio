@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380">
+  <defs>
+    <style>
+      .bg { fill: #0D0D0D; }
+      .txt { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #E8E8E8; }
+      .txt-muted { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #777777; }
+      .txt-ok { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #39FF14; }
+      .txt-warn { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #D6A84F; }
+      .txt-init { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #E8E8E8; letter-spacing: 1px; }
+      .txt-ready { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #39FF14; letter-spacing: 1px; }
+
+      .l0  { animation: fadein 0.3s ease 0.2s both; }
+      .l1  { animation: fadein 0.3s ease 0.9s both; }
+      .l2  { animation: fadein 0.3s ease 1.5s both; }
+      .l3  { animation: fadein 0.3s ease 2.0s both; }
+      .l4  { animation: fadein 0.3s ease 2.5s both; }
+      .l5  { animation: fadein 0.3s ease 3.0s both; }
+      .l6  { animation: fadein 0.3s ease 3.5s both; }
+      .l7  { animation: fadein 0.3s ease 4.0s both; }
+      .l8  { animation: fadein 0.3s ease 4.7s both; }
+      .l9  { animation: fadein 0.3s ease 5.3s both; }
+      .cursor { animation: blink 1s step-end 5.4s infinite both; }
+
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="680" height="380"/>
+
+  <!-- Top border line -->
+  <line x1="40" y1="30" x2="640" y2="30" stroke="#333333" stroke-width="1"/>
+
+  <!-- Header label -->
+  <text class="txt-muted" x="40" y="22" font-size="11">EXIRO // BOOT LOG</text>
+  <text class="txt-muted" x="560" y="22" font-size="11">ENV v0.1.0</text>
+
+  <!-- Line 0: INITIALIZING -->
+  <text class="txt-init l0" x="40" y="66">INITIALIZING EXIRO ENVIRONMENT...</text>
+
+  <!-- Line 1: blank separator handled by spacing -->
+
+  <!-- Lines: [ OK ] entries -->
+  <text class="txt-ok l1" x="40" y="104">
+    <tspan fill="#39FF14">[ OK ]</tspan>
+    <tspan fill="#E8E8E8" dx="8">loading curiosity</tspan>
+  </text>
+
+  <text class="txt-ok l2" x="40" y="128">
+    <tspan fill="#39FF14">[ OK ]</tspan>
+    <tspan fill="#E8E8E8" dx="8">loading skepticism</tspan>
+  </text>
+
+  <text class="txt-ok l3" x="40" y="152">
+    <tspan fill="#39FF14">[ OK ]</tspan>
+    <tspan fill="#E8E8E8" dx="8">loading compiler</tspan>
+  </text>
+
+  <text class="txt-ok l4" x="40" y="176">
+    <tspan fill="#39FF14">[ OK ]</tspan>
+    <tspan fill="#E8E8E8" dx="8">loading unreasonable ideas</tspan>
+  </text>
+
+  <text class="txt-ok l5" x="40" y="200">
+    <tspan fill="#39FF14">[ OK ]</tspan>
+    <tspan fill="#E8E8E8" dx="8">loading experimental systems</tspan>
+  </text>
+
+  <!-- blank line gap -->
+
+  <!-- WARNING line -->
+  <text class="txt-warn l6" x="40" y="238">
+    <tspan fill="#D6A84F">[WARN]</tspan>
+    <tspan fill="#E8E8E8" dx="8">unfinished ideas detected:</tspan>
+    <tspan fill="#D6A84F" dx="4">47</tspan>
+  </text>
+
+  <!-- blank line gap -->
+
+  <!-- ENVIRONMENT READY -->
+  <text class="txt-ready l7" x="40" y="276">ENVIRONMENT READY.</text>
+
+  <!-- blank line -->
+
+  <!-- question -->
+  <text class="txt-muted l8" x="40" y="314" font-size="12">question everything. trust nothing.</text>
+
+  <!-- bottom border -->
+  <line x1="40" y1="348" x2="640" y2="348" stroke="#333333" stroke-width="1"/>
+
+  <!-- cursor block -->
+  <rect class="cursor" x="40" y="322" width="9" height="16" fill="#39FF14"/>
+
+</svg>

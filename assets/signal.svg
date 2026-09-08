@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 60" width="680" height="60">
+  <defs>
+    <style>
+      .bg { fill: #0D0D0D; }
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      .pulse-ring {
+        animation: pulse 3s ease-out infinite;
+        transform-origin: 24px 30px;
+      }
+      .pulse-core {
+        animation: core-blink 3s ease-out infinite;
+      }
+      @keyframes pulse {
+        0%   { r: 5;  opacity: 0.8; }
+        70%  { r: 16; opacity: 0;   }
+        100% { r: 5;  opacity: 0;   }
+      }
+      @keyframes core-blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0.5; }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="680" height="60"/>
+
+  <!-- Divider line -->
+  <line x1="40" y1="18" x2="640" y2="18" stroke="#2A2A2A" stroke-width="1"/>
+
+  <!-- Signal pulse -->
+  <circle class="pulse-ring" cx="24" cy="30" r="5" fill="none" stroke="#39FF14" stroke-width="1.5"/>
+  <circle class="pulse-core" cx="24" cy="30" r="4" fill="#39FF14"/>
+
+  <!-- Signal text -->
+  <text class="mono" x="46" y="35" font-size="12" fill="#777777" letter-spacing="0.5">SIGNAL ACTIVE</text>
+
+  <!-- Right side label -->
+  <text class="mono" x="490" y="35" font-size="11" fill="#444444">ExiroStudio // github.com</text>
+</svg>
