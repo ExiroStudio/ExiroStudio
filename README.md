@@ -18,8 +18,8 @@ DIGITAL ENTITY  //  UNDEFINED
 
 ```
 STATUS ...... ONLINE
-STATE ....... EXPLORING
-DOMAIN ...... COMPUTATION → EVERYTHING INTERESTING
+STATE ....... BUILDING
+FOCUS ....... SYSTEMS PROGRAMMING → RENDER ENGINES → RUNTIME INTERNALS
 ```
 
 </div>
@@ -35,6 +35,8 @@ I build things because I want to understand how they work.
 Not just what the API returns — but what runs underneath it. What decides the memory layout. What the scheduler is actually doing. Why the abstraction leaks in exactly that place.
 
 The investigation moves wherever curiosity points: web applications, Linux internals, runtime architecture, networking, graphics pipelines, infrastructure, machine learning. The domain is less important than the depth.
+
+That's the itch behind `static`: instead of letting an addon touch the GPU directly, force every render decision through one broker — so the question "why did this frame look wrong" always has exactly one place to look.
 
 <br/>
 
@@ -145,14 +147,13 @@ Can a learning system learn not only the task,
 but how it should learn the task?
 ```
 
-The long-term interest is not in applying existing ML techniques.
-It's in understanding what happens at a deeper level:
+The long-term interest isn't in applying existing ML techniques — it's adjacent to meta-learning and learned optimizers, but from the systems side, not the paper side:
 
-- Can a system develop its own learning strategy, rather than inheriting one?
-- What does it mean to optimize the optimization process?
-- Are there learning mechanisms we haven't tried because we assumed the standard ones were sufficient?
+- If the optimizer itself is learned, where does that computation actually run — and what does it cost?
+- Most "learn to learn" work stops at the algorithm. What changes if you also design the runtime it learns inside?
+- Are there architectures we've dismissed as impractical only because nobody built the runtime that would make them cheap?
 
-No claims. No breakthrough announcements. Just a question that hasn't been fully answered yet.
+No claims. No results to show yet. Just the question this repo exists to eventually answer.
 
 <br/>
 
@@ -183,6 +184,16 @@ Linux · Docker · Networking · Runtime Architecture · wgpu
 
 AI / RESEARCH
 Machine Learning · Neural Networks · Experimental Learning Systems
+```
+
+<br/>
+
+## `// CHANNEL`
+
+```
+EMAIL ....... your-email@example.com
+X ........... x.com/yourhandle
+SITE ........ yoursite.dev
 ```
 
 <br/>
