@@ -136,7 +136,7 @@ Things that exist somewhere between an idea and a finished system. Listed becaus
 
 </details>
 
-<br/>
+<!-- <br/>
 
 ---
 
@@ -155,7 +155,7 @@ The long-term interest isn't in applying existing ML techniques — it's adjacen
 
 No claims. No results to show yet. Just the question this repo exists to eventually answer.
 
-<br/>
+<br/> -->
 
 ## `// SYSTEM STATUS`
 
@@ -171,19 +171,13 @@ No claims. No results to show yet. Just the question this repo exists to eventua
 
 ```
 LANGUAGES
-Rust · Go · TypeScript · JavaScript · PHP · Dart
+Go · Rust · TypeScript · JavaScript · PHP
 
 WEB
-Next.js · React · Laravel · Tailwind
-
-MOBILE
-Flutter
+Next.js · React · Vue · Angular · Laravel · Tailwind
 
 SYSTEMS
 Linux · Docker · Networking · Runtime Architecture · wgpu
-
-AI / RESEARCH
-Machine Learning · Neural Networks · Experimental Learning Systems
 ```
 
 <br/>
@@ -191,9 +185,7 @@ Machine Learning · Neural Networks · Experimental Learning Systems
 ## `// CHANNEL`
 
 ```
-EMAIL ....... your-email@example.com
-X ........... x.com/yourhandle
-SITE ........ yoursite.dev
+EMAIL ....... exirostudio@gmail.com
 ```
 
 <br/>
