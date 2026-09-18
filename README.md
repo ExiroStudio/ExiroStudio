@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/boot.svg" alt="EXIRO ENVIRONMENT BOOT SEQUENCE" width="680"/>
+<img src="assets/boot.svg" alt="EXIRO ENVIRONMENT BOOT SEQUENCE" width="100%"/>
 
 </div>
 
@@ -161,7 +161,7 @@ No claims. No results to show yet. Just the question this repo exists to eventua
 
 <div align="center">
 
-<img src="assets/status.svg" alt="EXIRO System Status" width="680"/>
+<img src="assets/status.svg" alt="EXIRO System Status" width="100%"/>
 
 </div>
 
@@ -194,7 +194,7 @@ EMAIL ....... exirostudio@gmail.com
 
 <div align="center">
 
-<img src="assets/signal.svg" alt="Signal active" width="680"/>
+<img src="assets/signal.svg" alt="Signal active" width="100%"/>
 
 </div>
 
